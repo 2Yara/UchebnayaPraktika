@@ -1,6 +1,7 @@
 from collections import Counter
 import time
 from collections import Counter
+#просто нажать кнопку запуска программы, не пытаться запускать с консоли вскода
 
 def optimized_count_services(filename):
     counter = Counter()

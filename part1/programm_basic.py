@@ -1,4 +1,5 @@
 import time 
+#просто нажать кнопку запуска программы, не пытаться запускать с консоли вскода
 
 def naive_count_services(filename):
     services = []
