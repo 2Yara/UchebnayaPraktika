@@ -3,8 +3,8 @@ FROM python:3.13-slim
 WORKDIR /app
 
 # Копируем файл с зависимостями и устанавливаем их
-COPY reqs.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY req.txt .
+RUN pip install --no-cache-dir -r req.txt
 
 # Копируем весь код проекта
 COPY . .
